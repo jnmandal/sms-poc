@@ -1,18 +1,23 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  padding: 5px;
   color: white;
+  flex: 1;
+  flex-direction: column;
 }
 
-.App-intro {
-  font-size: large;
+.App-logo {
+  height: 100px;
+  flex: 1;
+}
+
+.App-content {
+  flex: 20;
+  display: flex;
 }
